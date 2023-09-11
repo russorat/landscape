@@ -2796,6 +2796,8 @@ landscape:
             allow_duplicate_repo: true
             extra:
               accepted: '2021-04-28'
+              annual_review_url: https://github.com/cncf/toc/pull/1109
+              annual_review_date: '2023-07-04'
               dev_stats_url: https://wasmedge.devstats.cncf.io/
               artwork_url: https://github.com/cncf/artwork/blob/master/examples/sandbox.md#wasmedgeruntime-logos
               summary_personas: Developers, DevOps Engineers
@@ -6448,6 +6450,13 @@ landscape:
               clomonitor_name: open-kruise
               incubating: '2023-03-02'
           - item:
+            name: OpsMx
+            description: OpsMx provides OSS Argo Support and services and Intelligent Software Delivery platform based on both Argo and Spinnaker.
+            homepage_url: https://www.opsmx.com
+            logo: opsmx.svg
+            twitter: https://twitter.com/ops_mx
+            crunchbase: https://www.crunchbase.com/organization/opsmx
+          - item:
             name: Ortelius
             homepage_url: https://ortelius.io/
             repo_url: https://github.com/ortelius/ortelius
@@ -7234,6 +7243,14 @@ landscape:
             twitter: https://twitter.com/IBMcloud
             crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
+            name: InCloud OS
+            description: >-
+              InCloud OS, offering full lifecycle management services, is an application-centric platform which provides a High-available managed environment to
+              simplify the CI/CD, Deployment, Container Orchestration，ServiceMesh，scheduling and scaling of containerized applications.
+            homepage_url: https://www.inspur.com/lcjtww/2527835/2527836/2616084/index.html
+            logo: incloudos.svg
+            crunchbase: https://www.crunchbase.com/organization/inspur
+          - item:
             name: Inspur AIStation
             description: >-
               AIStation, an AI development platform, provides container deployment and efficient distributed training. It enables unified management, scheduling
@@ -7439,6 +7456,14 @@ landscape:
             logo: tencent-cloud.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/tencent
+          - item:
+            name: Volcengine Kubernetes Engine (VKE)
+            description: >-
+              Volcengine Kubernetes Engine(VKE) is a Kubernetes-based service that provides high-performance container cluster management. By deeply integrating
+              the new generation of cloud-native technologies, VKE ensures high efficiency for enterprises through running containerized applications in the cloud.
+            homepage_url: https://www.volcengine.com/product/vke
+            logo: volcano-engine.svg
+            crunchbase: https://www.crunchbase.com/organization/volcano-engine
           - item:
             name: Vultr Kubernetes Engine
             description: >-
@@ -7939,6 +7964,10 @@ landscape:
                 - date: '2023-06-30'
                   type: fuzzing
                   url: https://docs.dapr.io/docs/Dapr-june-2023-fuzzing-audit-report.pdf
+                  vendor: Ada Logics
+                - date: '2023-09-05'
+                  type: security
+                  url: https://docs.dapr.io/docs/Dapr-september-2023-security-audit-report.pdf
                   vendor: Ada Logics
           - item:
             name: Encore
@@ -8519,11 +8548,6 @@ landscape:
             homepage_url: https://chronosphere.io/
             logo: chronosphere.svg
             crunchbase: https://www.crunchbase.com/organization/chronosphere
-          - item:
-            name: CloudHealth Technologies
-            homepage_url: https://cloudhealth.vmware.com
-            logo: cloudhealth.svg
-            crunchbase: https://www.crunchbase.com/organization/cloudhealth-technologies
           - item:
             name: Cloudwise Synthetic Monitoring
             homepage_url: https://www.jiankongbao.com/
@@ -9144,6 +9168,14 @@ landscape:
             homepage_url: https://www.vmware.com/products/aria-operations-for-applications
             logo: VMware-Aria-Operations-for-Applications.svg
             twitter: https://twitter.com/VMwareAria
+            crunchbase: https://www.crunchbase.com/organization/vmware
+          - item:
+            name: VMware Tanzu CloudHealth
+            description: >-
+              Tanzu CloudHealth is a multi-cloud FinOps platform that helps organizations make sense of their cloud data, optimize and control cloud spend, and
+              enhance their cloud management practice.
+            homepage_url: https://cloudhealth.vmware.com
+            logo: cloudhealth.svg
             crunchbase: https://www.crunchbase.com/organization/vmware
           - item:
             name: Weave Scope
@@ -10673,6 +10705,14 @@ landscape:
             homepage_url: https://kumina.nl/managed_kubernetes
             logo: kumina.svg
             crunchbase: https://www.crunchbase.com/organization/kumina
+          - item:
+            name: Lenovo (KCSP)
+            description: >-
+              Based on the experience of enterprise-level IT governance in the dual state of stability and flexibility, Lenovo Cloud Native products provide one-stop
+              Kubernetes services to help customers achieve a balance between development efficiency and operation and maintenance control.
+            homepage_url: https://xcloud.lenovo.com.cn/zh-cn/pages/paas.html#
+            logo: lenovo.svg
+            crunchbase: https://www.crunchbase.com/organization/lenovo
           - item:
             name: Linklogis (KCSP)
             description: >-
@@ -12204,11 +12244,6 @@ landscape:
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/capital-one
           - item:
-            name: CECloud (member)
-            homepage_url: https://www.cecloud.com/
-            logo: cecloud-cestc.svg
-            crunchbase: https://www.crunchbase.com/organization/china-electronic-system-cloud-data-and-intelligence-technology
-          - item:
             name: Charter Communications (member)
             homepage_url: https://spectrum.com/
             logo: charter.svg
@@ -12601,11 +12636,6 @@ landscape:
             logo: aspen-mesh.svg
             crunchbase: https://www.crunchbase.com/organization/aspen-mesh
           - item:
-            name: Asserts (member)
-            homepage_url: https://www.asserts.ai/
-            logo: asserts.svg
-            crunchbase: https://www.crunchbase.com/organization/asserts
-          - item:
             name: ASUS Cloud Corporation (member)
             homepage_url: https://www.asuscloud.com/
             logo: asus-cloud.svg
@@ -12788,11 +12818,6 @@ landscape:
             homepage_url: http://www.brobridge.com/
             logo: brobridge-member.svg
             crunchbase: https://www.crunchbase.com/organization/brobridge
-          - item:
-            name: BTP (member)
-            homepage_url: https://btp.works/
-            logo: btp.svg
-            crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
             name: Buoyant (member)
             homepage_url: https://buoyant.io/
@@ -12993,11 +13018,6 @@ landscape:
             homepage_url: https://www.cloudmt.co.kr
             logo: cloudmate.svg
             crunchbase: https://www.crunchbase.com/organization/cloudmate-1d80
-          - item:
-            name: CloudNatix (member)
-            homepage_url: https://www.cloudnatix.com/
-            logo: cloudnatix.svg
-            crunchbase: https://www.crunchbase.com/organization/cloudnatix
           - item:
             name: CloudOps (member)
             homepage_url: https://www.cloudops.com/
@@ -13432,6 +13452,11 @@ landscape:
             logo: engineer-better.svg
             crunchbase: https://www.crunchbase.com/organization/engineerbetter
           - item:
+            name: Enterprise DB (member)
+            homepage_url: https://www.enterprisedb.com/
+            logo: edb.svg
+            crunchbase: https://www.crunchbase.com/organization/enterprisedb            
+          - item:
             name: Entigo (member)
             homepage_url: https://www.entigo.com/
             logo: entigo.svg
@@ -13611,6 +13636,11 @@ landscape:
             logo: ge-healthcare.svg
             enduser: true
             crunchbase: https://www.crunchbase.com/organization/ge-healthcare
+          - item:
+            name: genezio (member)
+            homepage_url: https://genez.io/
+            logo: genezio.svg
+            crunchbase: https://www.crunchbase.com/organization/genezio            
           - item:
             name: German Edge Cloud (member)
             homepage_url: https://gec.io
@@ -15283,11 +15313,6 @@ landscape:
             logo: taikun.svg
             crunchbase: https://www.crunchbase.com/organization/itera-technologies-a-s
           - item:
-            name: Teamsun (member)
-            homepage_url: http://www.teamsun.com.cn/
-            logo: teamsun.svg
-            crunchbase: https://www.crunchbase.com/organization/teamsun-technology-co
-          - item:
             name: TelemetryHub by Scout APM (member)
             homepage_url: https://www.telemetryhub.com/
             logo: telemetryhub-scoutapm.svg
@@ -15564,11 +15589,6 @@ landscape:
             homepage_url: https://www.weave.works
             logo: weaveworks-member.svg
             crunchbase: https://www.crunchbase.com/organization/weaveworks
-          - item:
-            name: Webera (member)
-            homepage_url: https://www.webera.com/
-            logo: webera.svg
-            crunchbase: https://www.crunchbase.com/organization/webera
           - item:
             name: WeScale (member)
             homepage_url: https://www.wescale.fr/
@@ -17034,6 +17054,12 @@ landscape:
             homepage_url: https://eos.io/
             logo: eos.svg
             crunchbase: https://www.crunchbase.com/organization/block-one
+          - item:
+            name: Casper
+            homepage_url: https://casper.network/
+            repo_url: https://github.com/casper-network/casper-node
+            logo: casper.svg
+            crunchbase: https://www.crunchbase.com/organization/casper-association
           - item:
             name: CosmWasm
             homepage_url: https://cosmwasm.com/
